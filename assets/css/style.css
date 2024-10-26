@@ -1,0 +1,83 @@
+.underline:after {
+  content: "";
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  width: 100%;
+  height: 8px;
+  border-radius: 5px;
+  background: #572120;
+  z-index: -1;
+}
+
+@media only screen and (max-width: 768px) {
+  nav ul li:not(:nth-last-child(-n + 1)) {
+    width: 137px;
+    margin: 0 auto;
+    border-bottom: 2px solid rgba(201,19,19,0.33);
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .button-masuk {
+    margin-top: 10px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .centered-android {
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .hidden-android {
+    display: none;
+  }
+}
+
+.genius-hero {
+  padding-top: 100px;
+}
+
+@media only screen and (max-width: 768px) {
+  .genius-hero {
+    padding-top: 60px;
+    padding-bottom: 5px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  #column-line {
+    overflow: hidden;
+  }
+}
+
+.icon-gg {
+  color: white;
+  background: #D06334;
+}
+
+.hover-image-container {
+  perspective: 1000px;
+}
+
+.hover-image {
+  width: 100%;
+  transition: transform 0.3s ease;
+  transform-origin: center center;
+}
+
+.underline-image {
+  position: absolute;
+  width: 180px;
+  top: 81%;
+  left: 55%;
+}
+
+@media (max-width: 768px) {
+  .underline-image {
+    width: 114px !important;
+  }
+}
+
